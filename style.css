@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
 *{
   padding: 0;
   margin: 0;
@@ -6,4 +8,49 @@
 
 img{
   max-width: 100%;
+}
+
+body{
+  background-color: #101418;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+main{
+  text-align: center;
+  padding-top: 80px;
+}
+
+header{
+  font-family: "Libertinus Serif", serif;
+  color: #ffffff;
+}
+
+header > p:nth-child(1){
+  font-size: 32px;
+  font-weight: 700;
+}
+
+header > p:nth-child(2){
+  font-size: 15px;
+  padding-top: 5px;
+}
+
+.round{
+  margin-top: 80px;
+}
+
+.round-text-anchor{
+  text-decoration: none;
+}
+
+.round-text-anchor p > strong{
+  color: #88A3E8;
+  padding-bottom: 5px;
+  font-size: 16px;
+  font-weight: 700px;
+}
+
+.round-text-anchor p > small{
+  color: #A2A9B1;
+  font-size: 13px;
 }
