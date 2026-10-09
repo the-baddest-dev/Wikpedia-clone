@@ -36,21 +36,99 @@ header > p:nth-child(2){
 }
 
 .round{
-  margin-top: 80px;
+  margin-top: 90px;
+  position: relative;
 }
 
 .round-text-anchor{
   text-decoration: none;
 }
 
-.round-text-anchor p > strong{
+.round-text-anchor > p > strong{
   color: #88A3E8;
   padding-bottom: 5px;
   font-size: 16px;
   font-weight: 700px;
 }
 
-.round-text-anchor p > small{
+.round-text-anchor > p > small{
   color: #A2A9B1;
   font-size: 13px;
 }
+
+.round-text-anchor:nth-child(1){
+  position: absolute;
+  bottom: 200px;
+  left: 1050px;
+}
+
+.round-text-anchor:nth-child(2){
+  position: absolute;
+  bottom: 130px;
+  left: 1100px;
+}
+
+.round-text-anchor:nth-child(3){
+  position: absolute;
+  bottom: 60px;
+  left: 1100px;
+}
+
+.round-text-anchor:nth-child(4){
+  position: absolute;
+  bottom: -10px;
+  left: 1100px;
+}
+
+.round-text-anchor:nth-child(5){
+  position: absolute;
+  bottom: -70px;
+  left: 1050px;
+}
+
+.round-text-anchor:nth-child(6){
+  position: absolute;
+  bottom: 200px;
+  left: 760px;
+}
+
+.round-text-anchor:nth-child(7){
+  position: absolute;
+  bottom: 130px;
+  left: 705px;
+}
+
+.round-text-anchor:nth-child(8){
+  position: absolute;
+  bottom: 60px;
+  left: 705px;
+}
+
+.round-text-anchor:nth-child(9){
+  position: absolute;
+  bottom: -10px;
+  left: 705px;
+}
+
+.round-text-anchor:nth-child(10){
+  position: absolute;
+  bottom: -70px;
+  left: 770px;
+}
+
+.search{
+  margin-top: 120px;
+}
+
+select{
+  width: 400px;
+  height: 40px;
+  background-color: #101418;
+  /* border: 2px solid #72777d; */
+  color: #ffffff;
+}
+
+select:focus{
+  border-color: #88A3E8;
+}
+
